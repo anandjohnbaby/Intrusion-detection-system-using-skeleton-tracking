@@ -12,11 +12,11 @@ import tempfile
 model = tf.keras.models.load_model("intruder_detection_model.h5")
 
 # Twilio credentials
-account_sid = 'AC1d8d2a5db506f5b321ae25064b8f22a7'
-auth_token = '192866b6046712f0212eb35a77426f07'
+account_sid = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+auth_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
-twilio_phone_number = '+19382015868'
-recipient_phone_number = '+917592972157'
+twilio_phone_number = '+1xxxxxxxxxx'
+recipient_phone_number = '+91xxxxxxxxxxxx'
 
 # Initialize Twilio client
 client = Client(account_sid, auth_token)
